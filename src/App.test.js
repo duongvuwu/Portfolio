@@ -23,15 +23,25 @@ beforeEach(() => {
 test("renders the portfolio and source links on the initial render", () => {
   render(<App />);
 
-  expect(screen.getByRole("heading", { level: 1, name: "Duong Wuu" })).toBeVisible();
+  expect(screen.getByRole("heading", { level: 1, name: "Duong Vu" })).toBeVisible();
   expect(screen.getAllByRole("heading", { level: 2 }).map((heading) => heading.id))
     .toEqual(["about", "skills", "projects", "contact"]);
   expect(screen.getAllByRole("link", { name: /^View source for / })).toHaveLength(9);
   expect(screen.getAllByRole("link", { name: /^Demo & credits for / })).toHaveLength(1);
   expect(screen.getByRole("link", { name: "Demo & credits for Word-by-Word Video Supercut" }))
     .toHaveAttribute("href", "https://github.com/duongvuwu/word-by-word-video-supercut-demo/blob/main/phase1-demo/README.md");
-  const openGl = screen.getByRole("heading", { name: "OpenGL Space Station" }).closest("article");
+  const featured = screen.getByRole("list", { name: "Featured projects" });
+  const archive = screen.getByRole("list", { name: "More projects and coursework" });
+  expect(within(featured).getAllByRole("heading")).toHaveLength(3);
+  expect(within(featured).queryByRole("heading", { name: "Software License Tracker" })).toBeNull();
+  expect(within(featured).queryByRole("heading", { name: "OpenGL Space Station" })).toBeNull();
+  expect(within(archive).getByRole("heading", { name: "Software License Tracker" })).toBeVisible();
+  const openGl = within(archive).getByRole("heading", { name: "OpenGL Space Station" }).closest("article");
   expect(within(openGl).getByText("C++ / OpenGL Contributor · Team project")).toBeVisible();
+  expect(screen.getByRole("heading", { name: "Frontend Development" })).toBeVisible();
+  expect(screen.getByRole("heading", { name: "Business Analysis" })).toBeVisible();
+  expect(screen.getByRole("heading", { name: "Languages and Tools" })).toBeVisible();
+  expect(screen.getByText("Retrieval-augmented generation and embeddings")).toBeVisible();
   expect(screen.getByRole("link", { name: "GitHub · @duongvuwu" }))
     .toHaveAttribute("href", "https://github.com/duongvuwu");
 });

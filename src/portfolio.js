@@ -1,42 +1,105 @@
 export const profile = {
-  name: "Duong Wuu",
+  name: "Duong Vu",
   handle: "duongvuwu",
-  introduction: "I build web applications, AI prototypes, and interactive software.",
-  about: "My projects include a software license tracker for university IT, a backend for learning by teaching, and a game agent trained on match replays. I’ve also worked on a 3D space station simulation and a video editing pipeline.",
+  introduction: "Frontend development, business analysis, and applied AI.",
+  about: "I’m building my skills in frontend development and business analysis. My projects include a learning-by-teaching backend, a game agent trained on match replays, and a video editing pipeline driven by word timestamps.",
   interests: [
-    "Web applications",
-    "Machine learning",
-    "Interactive graphics and video",
+    "Generative AI and large language models",
+    "AI agents and workflow orchestration",
+    "Retrieval-augmented generation and embeddings",
+    "Prompt design and LLM evaluation",
+    "Machine learning and deep learning",
+    "Imitation learning and reinforcement learning",
+    "Multimodal AI, speech, and computer vision",
+    "Model serving, inference, and MLOps",
+    "AI-assisted learning and automation",
   ],
   contact: "Find me on GitHub.",
   githubUrl: "https://github.com/duongvuwu",
 };
 
-export const skillGroups = [
+export const skillTracks = [
   {
-    name: "Web development",
-    technologies: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
+    name: "Frontend Development",
+    level: "Fresher foundations",
+    groups: [
+      {
+        name: "Web fundamentals",
+        technologies: [
+          "Semantic HTML", "CSS", "Flexbox", "Grid", "Responsive design", "Accessibility",
+          "JavaScript (ES6+)", "TypeScript basics", "DOM and events", "Forms and validation",
+        ],
+      },
+      {
+        name: "Build and integrate",
+        technologies: [
+          "React components", "Props, state, and hooks", "Client-side routing", "HTTP and REST APIs",
+          "Fetch and JSON", "Async JavaScript", "Loading and error states",
+          "Browser storage", "Basic web security",
+        ],
+      },
+      {
+        name: "Design, test, and ship",
+        technologies: [
+          "Figma handoff", "Reusable UI components", "Browser DevTools",
+          "Cross-browser testing", "Unit and component testing", "Git and GitHub",
+          "npm and build tools", "Performance basics", "SEO basics", "Static deployment",
+        ],
+      },
+    ],
   },
   {
-    name: "AI and data",
-    technologies: ["Python", "LangGraph", "PyTorch", "pandas", "scikit-learn"],
+    name: "Business Analysis",
+    level: "Fresher foundations",
+    groups: [
+      {
+        name: "Discovery and collaboration",
+        technologies: [
+          "Problem framing", "Scope and objectives", "Stakeholder analysis",
+          "Interviews and workshops", "Requirements elicitation", "Active listening",
+          "Facilitation", "Meeting notes and follow-ups",
+        ],
+      },
+      {
+        name: "Requirements and modeling",
+        technologies: [
+          "Functional and non-functional requirements", "Business rules", "User stories",
+          "Acceptance criteria", "Use cases", "Requirements documentation",
+          "As-is and to-be flows", "BPMN and UML basics", "Wireframes", "ER diagrams",
+        ],
+      },
+      {
+        name: "Delivery and validation",
+        technologies: [
+          "Agile and Scrum basics", "Backlog refinement", "MoSCoW prioritization",
+          "Requirements traceability", "Change impact analysis", "UAT scenarios",
+          "Defect reporting", "Basic KPIs and reporting", "Excel and SQL basics",
+          "Jira and Confluence basics",
+        ],
+      },
+    ],
   },
   {
-    name: "Graphics and video",
-    technologies: ["C++", "OpenGL", "CMake", "FFmpeg"],
+    name: "Languages and Tools",
+    level: "Used in projects",
+    groups: [
+      {
+        name: "Languages and web",
+        technologies: ["JavaScript", "Python", "PHP", "C++", "SQL", "HTML", "CSS"],
+      },
+      {
+        name: "Web, data, and AI",
+        technologies: ["React", "MySQL", "PDO", "LangGraph", "PyTorch", "pandas", "scikit-learn"],
+      },
+      {
+        name: "Graphics and tooling",
+        technologies: ["OpenGL", "CMake", "FFmpeg", "Tkinter", "Matplotlib", "Git", "GitHub Pages"],
+      },
+    ],
   },
 ];
 
 export const featuredProjects = [
-  {
-    title: "Software License Tracker",
-    description: "A web app for university IT teams to allocate software licenses, track activations and expirations, and review usage and audit logs.",
-    type: "Team project",
-    role: "Allocation Engine, Lifecycle & Logs",
-    contribution: "Worked on license allocation and lifecycle reporting, and added an intent-based licensing assistant and a Vietnamese–English language switcher.",
-    technologies: ["PHP", "PDO", "MySQL", "JavaScript"],
-    sourceUrl: "https://github.com/duongvuwu/Group-12-_-NVH_INS306401",
-  },
   {
     title: "Pokémon TCG Battle Agent",
     description: "A game agent for the Pokémon Trading Card Game simulator that learns from match replays and fine-tunes through self-play.",
@@ -55,14 +118,6 @@ export const featuredProjects = [
     sourceUrl: "https://github.com/duongvuwu/ITeach",
   },
   {
-    title: "OpenGL Space Station",
-    description: "An interactive 3D space station simulation with zero-gravity movement, switchable first-person and security cameras, and Phong lighting.",
-    type: "Team project",
-    role: "C++ / OpenGL Contributor",
-    technologies: ["C++", "OpenGL", "CMake"],
-    sourceUrl: "https://github.com/duongvuwu/OpenGL-SpaceStation",
-  },
-  {
     title: "Word-by-Word Video Supercut",
     description: "A reproducible video pipeline that assembles new dialogue from source clips using manually marked word timestamps.",
     type: "Personal project",
@@ -75,6 +130,23 @@ export const featuredProjects = [
 ];
 
 export const otherProjects = [
+  {
+    title: "Software License Tracker",
+    description: "A web app for university IT teams to allocate software licenses, track activations and expirations, and review usage and audit logs.",
+    type: "Team project",
+    role: "Allocation Engine, Lifecycle & Logs",
+    contribution: "Worked on license allocation and lifecycle reporting, and added an intent-based licensing assistant and a Vietnamese–English language switcher.",
+    technologies: ["PHP", "PDO", "MySQL", "JavaScript"],
+    sourceUrl: "https://github.com/duongvuwu/Group-12-_-NVH_INS306401",
+  },
+  {
+    title: "OpenGL Space Station",
+    description: "An interactive 3D space station simulation with zero-gravity movement, switchable first-person and security cameras, and Phong lighting.",
+    type: "Team project",
+    role: "C++ / OpenGL Contributor",
+    technologies: ["C++", "OpenGL", "CMake"],
+    sourceUrl: "https://github.com/duongvuwu/OpenGL-SpaceStation",
+  },
   {
     title: "Temperature Monitoring Demo",
     description: "A software simulation of an LM35 sensor and MCP3008 converter, with a mock LCD and a live temperature chart.",
@@ -97,7 +169,7 @@ export const otherProjects = [
     sourceUrl: "https://github.com/duongvuwu/INS306401-INS3064-Vu-Binh-Duong",
   },
   {
-    title: "Duong Wuu Portfolio on GitHub Pages",
+    title: "Earlier Portfolio on GitHub Pages",
     description: "An earlier portfolio built with HTML and CSS to present my profile, skills, and project work.",
     type: "Personal portfolio",
     technologies: ["HTML", "CSS", "GitHub Pages"],

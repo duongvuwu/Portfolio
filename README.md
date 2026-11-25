@@ -1,6 +1,6 @@
-# Duong Wuu Portfolio
+# Duong Vu Portfolio
 
-A one-page portfolio of web applications, AI prototypes, and interactive software. The English copy and project links live in [src/portfolio.js](src/portfolio.js).
+A one-page portfolio covering frontend development, business analysis, and applied AI. The English copy, skill tracks, and project links live in [src/portfolio.js](src/portfolio.js).
 
 ## Local development
 
@@ -29,3 +29,5 @@ The Jest globs omit the absolute checkout path so tests are discovered in Window
 The repository began as a fork of [Soumyajit Behera’s Portfolio template](https://github.com/soumyajit4419/Portfolio).
 
 [Bricolage Grotesque](https://github.com/ateliertriay/bricolage) is distributed under the [SIL Open Font License 1.1](public/fonts/bricolage-grotesque-OFL.txt).
+
+[Unbounded](https://github.com/google/fonts/tree/main/ofl/unbounded) is distributed under the [SIL Open Font License 1.1](public/fonts/unbounded-OFL.txt).

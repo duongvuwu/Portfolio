@@ -2,7 +2,7 @@
 /* eslint jsx-a11y/no-redundant-roles: ["warn", { "ul": ["list"] }] */
 import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { FiArrowUp, FiArrowUpRight, FiChevronDown } from "react-icons/fi";
-import { featuredProjects, otherProjects, profile, skillGroups } from "./portfolio";
+import { featuredProjects, otherProjects, profile, skillTracks } from "./portfolio";
 import "./App.css";
 
 const sections = [
@@ -212,8 +212,12 @@ function App() {
               <dl>
                 <dt><code>$ whoami</code></dt>
                 <dd>{profile.handle}</dd>
-                <dt><code>$ interests</code></dt>
-                <dd>{profile.interests.map((interest) => <div key={interest}>{interest}</div>)}</dd>
+                <dt><code>$ ai-interests</code></dt>
+                <dd>
+                  <ul role="list" className="interest-list">
+                    {profile.interests.map((interest) => <li key={interest}>{interest}</li>)}
+                  </ul>
+                </dd>
               </dl>
             </figure>
           </div>
@@ -222,16 +226,24 @@ function App() {
         <section className="section">
           <div className="shell">
             <h2 id="skills" tabIndex={-1}>Skills</h2>
-            <div className="skills-grid">
-              {skillGroups.map(({ name, technologies }) => (
-                <div className="skill-group" key={name}>
+            {skillTracks.map(({ name, level, groups }) => (
+              <div className="skill-track" key={name}>
+                <div className="skill-track-heading">
                   <h3>{name}</h3>
-                  <ul role="list" className="skills-list">
-                    {technologies.map((technology) => <li key={technology}>{technology}</li>)}
-                  </ul>
+                  <p>{level}</p>
                 </div>
-              ))}
-            </div>
+                <div className="skills-grid">
+                  {groups.map(({ name: groupName, technologies }) => (
+                    <div className="skill-group" key={groupName}>
+                      <h4>{groupName}</h4>
+                      <ul role="list" className="skills-list">
+                        {technologies.map((technology) => <li key={technology}>{technology}</li>)}
+                      </ul>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            ))}
           </div>
         </section>
 
@@ -255,8 +267,8 @@ function App() {
               ))}
             </ul>
 
-            <h3 className="archive-heading">More projects and coursework</h3>
-            <ul role="list" className="project-archive">
+            <h3 id="more-projects" className="archive-heading">More projects and coursework</h3>
+            <ul role="list" className="project-archive" aria-labelledby="more-projects">
               {otherProjects.map((project) => (
                 <li key={project.title}>
                   <article className="archive-project">

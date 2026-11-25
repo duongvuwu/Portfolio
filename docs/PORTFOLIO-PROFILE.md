@@ -1,4 +1,4 @@
-# Hồ sơ và dự án của Duong Wuu
+# Hồ sơ và dự án của Duong Vu
 
 Tổng hợp ngày 25/11/2026 từ 11 repo công khai thuộc tài khoản `duongvuwu`, portfolio cũ, README, tài liệu phân công, mã nguồn và lịch sử commit. Các vai trò dưới đây mô tả công việc có dấu vết trong nguồn. Một tài khoản duy nhất trong lịch sử public chỉ xác nhận người đứng tên commit công khai. Các dự án ngoài GitHub công khai cần chủ repo bổ sung.
 
@@ -6,8 +6,8 @@ Tổng hợp ngày 25/11/2026 từ 11 repo công khai thuộc tài khoản `duon
 
 | Thông tin | Nội dung và nguồn |
 | --- | --- |
-| Tên hiển thị | **Duong Wuu**, theo tiêu đề portfolio cũ. Handle **`duongvuwu`**, theo hồ sơ GitHub. [Portfolio cũ](https://duongvuwu.github.io/duongwuu.github.io/) · [GitHub](https://github.com/duongvuwu) |
-| Họ tên xuất hiện trong tài liệu | **Vu Binh Duong** trong tên repo và tệp bài tập. Tài liệu nhóm ghi **Binh Duong**. Dùng Duong Wuu trên giao diện cho đến khi chủ repo xác nhận cách viết đầy đủ. [Repo bài tập](https://github.com/duongvuwu/INS306401-INS3064-Vu-Binh-Duong) · [Phân công nhóm](https://github.com/duongvuwu/Group-12-_-NVH_INS306401/blob/main/AGENT_HANDOFF_PROMPT.md#10-phan-cong-thanh-vien-hien-tai) |
+| Tên hiển thị | **Duong Vu**, do chủ repo cung cấp. Handle **`duongvuwu`**, theo hồ sơ GitHub. [GitHub](https://github.com/duongvuwu) |
+| Họ tên xuất hiện trong tài liệu | **Vu Binh Duong** trong tên repo và tệp bài tập. Tài liệu nhóm ghi **Binh Duong**. [Repo bài tập](https://github.com/duongvuwu/INS306401-INS3064-Vu-Binh-Duong) · [Phân công nhóm](https://github.com/duongvuwu/Group-12-_-NVH_INS306401/blob/main/AGENT_HANDOFF_PROMPT.md#10-phan-cong-thanh-vien-hien-tai) |
 | Học tập | Portfolio cũ tự giới thiệu là sinh viên học **Multimedia Design & Web Development** vào tháng 01/2026. Repo môn học có bài tập về web và MySQL. Hiện trạng học tập, tên trường, bằng cấp và mốc tốt nghiệp cần xác nhận. [Giới thiệu cũ](https://duongvuwu.github.io/duongwuu.github.io/#about) · [Repo bài tập](https://github.com/duongvuwu/INS306401-INS3064-Vu-Binh-Duong) |
 | Web và dữ liệu | PHP, MySQL, PDO, HTML, CSS và JavaScript qua Software License Tracker và bài tập web. [License Tracker](https://github.com/duongvuwu/Group-12-_-NVH_INS306401#readme) · [Bài tập](https://github.com/duongvuwu/INS306401-INS3064-Vu-Binh-Duong) |
 | AI và xử lý dữ liệu | Python, LangGraph, PyTorch, imitation learning, PPO, pandas và scikit-learn qua các dự án bên dưới. [ITeach](https://github.com/duongvuwu/ITeach) · [TCG Battle Agent](https://github.com/duongvuwu/TCG-TRAIN) · [Team-9](https://github.com/duongvuwu/Team-9) |
@@ -16,9 +16,9 @@ Tổng hợp ngày 25/11/2026 từ 11 repo công khai thuộc tài khoản `duon
 
 Giới thiệu tiếng Anh có thể dùng ngay.
 
-> I build web applications, AI prototypes, and interactive software. My projects include a university software license tracker, a learning-by-teaching backend, and a game agent trained from replay data.
+> Frontend development, business analysis, and applied AI.
 
-## Dự án nổi bật
+## Các dự án có mô tả đóng góp
 
 | Dự án | Hình thức và vai trò | Đóng góp có nguồn |
 | --- | --- | --- |
@@ -35,12 +35,13 @@ Giới thiệu tiếng Anh có thể dùng ngay.
 | **Temperature Monitoring Demo** · 2025 | **Người đăng bản demo**. Chưa xác minh solo hay nhóm và phần tự viết. | Mô phỏng cảm biến nhiệt LM35 và ADC MCP3008, chuyển đổi số đo, hiển thị LCD mô phỏng và biểu đồ bằng Python, Tkinter và Matplotlib. [Mã nguồn](https://github.com/duongvuwu/temperature_demo-in-software/tree/main/temperature_Demo1) |
 | **Obesity-Level Classification** · 2025 | **Nhóm 9**. `duongvuwu` đăng notebook, quy trình và ảnh kết quả. Vai trò mô hình hóa hoặc xử lý dữ liệu của từng thành viên cần xác nhận. | Notebook dùng pandas và scikit-learn để tiền xử lý, huấn luyện Random Forest và xem confusion matrix. Repo cũng có quy trình RapidMiner với Decision Tree. [Repo nhóm](https://github.com/duongvuwu/Team-9) · [Notebook](https://github.com/duongvuwu/Team-9/blob/main/Final%20Group%209.ipynb) |
 | **Multimedia Design & Web Development Coursework** · 2026 | **Repo bài tập cá nhân** theo tên và lịch sử công khai. | Bài tập PHP gồm xử lý form, kiểm tra dữ liệu, luồng nhiều bước và đăng nhập mẫu. Phần MySQL có worksheet, truy vấn và schema. Portfolio cũ còn nêu *INS3064 Welcome Page* và *Simple Form Validation Project*. Trình bày hai mục này trong phần bài tập khi thiếu bằng chứng về bản phát hành riêng. [Repo bài tập](https://github.com/duongvuwu/INS306401-INS3064-Vu-Binh-Duong) · [Danh sách cũ](https://duongvuwu.github.io/duongwuu.github.io/#work) |
-| **Duong Wuu Portfolio trên GitHub Pages** · 2026 | **Portfolio cá nhân**. `duongvuwu` là người đứng tên commit công khai và xuất bản trang. | Trang HTML/CSS giới thiệu hồ sơ, kỹ năng, dự án và liên hệ. Đây là nguồn cho tên hiển thị và phần giới thiệu học tập. [Repo](https://github.com/duongvuwu/duongwuu.github.io) · [Website](https://duongvuwu.github.io/duongwuu.github.io/) |
+| **Portfolio cũ trên GitHub Pages** · 2026 | **Portfolio cá nhân**. `duongvuwu` là người đứng tên commit công khai và xuất bản trang. | Trang HTML/CSS giới thiệu hồ sơ, kỹ năng, dự án và liên hệ. Đây là nguồn cho phần giới thiệu học tập. [Repo](https://github.com/duongvuwu/duongwuu.github.io) · [Website](https://duongvuwu.github.io/duongwuu.github.io/) |
 
 Hai repo còn lại trong danh mục khảo sát là [INS306401-NS3064-NVH](https://github.com/duongvuwu/INS306401-NS3064-NVH), đang trống, và [Portfolio](https://github.com/duongvuwu/Portfolio), repo đích của v1 có lịch sử `master` từ [template Soumyajit](https://github.com/soumyajit4419/Portfolio). Giữ hai repo này ngoài danh sách dự án đã hoàn thành.
 
 ## Dùng khi triển khai
 
-- Đưa năm dự án nổi bật lên trước, sau đó hiển thị bốn mục còn lại, gồm cả bài tập, ở danh sách gọn. Trên mỗi card, ghi vai trò hoặc loại hình cộng tác theo chứng cứ có sẵn. Với dự án nhóm, ghi rõ đóng góp cá nhân khi tài liệu cho phép.
+- Đưa Pokémon TCG Battle Agent, ITeach và Word-by-Word Video Supercut lên trước. Đưa Software License Tracker, OpenGL Space Station và bốn mục còn lại vào More projects. Trên mỗi card, ghi vai trò hoặc loại hình cộng tác theo chứng cứ có sẵn.
+- Trình bày kỹ năng nền tảng fresher theo hai hướng Frontend Development và Business Analysis. Dùng nhóm Languages and Tools cho công nghệ đã áp dụng và mục AI interests cho các chủ đề quan tâm. [Năng lực BA đầu vào](https://www.iiba.org/business-analysis-certifications/ecba/ecba-competencies/)
 - Dùng `Solo project` khi chủ repo xác nhận. Với ITeach và Video Supercut, có thể dùng `Personal project` dựa trên lịch sử công khai. Dùng `Team project` cho Software License Tracker và Team-9. Với mục chỉ có bằng chứng upload, có thể dùng `Repository publisher` nếu cần nêu đóng góp.
 - Các mục cần xác nhận thêm gồm hình thức làm TCG, OpenGL và Temperature Demo, phần việc trong Team-9, cách viết tên đầy đủ, tình trạng học tập hiện tại, liên hệ, CV và các dự án ngoài GitHub.
