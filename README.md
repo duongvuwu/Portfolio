@@ -1,4 +1,4 @@
-# Duong Wuu Portfolio
+# Duongvuwu Portfolio
 
 A one-page portfolio of web applications, AI prototypes, and interactive software. The English copy and project links live in [src/portfolio.js](src/portfolio.js).
 
