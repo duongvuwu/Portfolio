@@ -2,8 +2,8 @@ export const profile = {
   name: "Duong Vu",
   handle: "duongvuwu",
   introduction: "Full Stack Development",
-  focus: "Business Analysis · Applied AI",
-  about: "I’m building my skills in full stack development and business analysis. My projects include a learning-by-teaching backend, a game agent trained on match replays, and a video editing pipeline driven by word timestamps.",
+  focus: "AI/ML Engineer",
+  about: "I focus on full stack development and machine learning. My projects include a learning-by-teaching backend, a game agent trained on match replays, and a video editing pipeline driven by word timestamps.",
   interests: [
     "Generative AI and large language models",
     "AI agents and workflow orchestration",
@@ -26,78 +26,33 @@ export const skillTracks = [
     groups: [
       {
         name: "Frontend development",
-        technologies: [
-          "Semantic HTML", "CSS", "Flexbox", "Grid", "Responsive design", "Accessibility",
-          "JavaScript (ES6+)", "TypeScript basics", "DOM and events", "Forms and validation",
-          "React components", "Props, state, and hooks", "Client-side routing",
-          "Client-side storage", "Figma handoff", "Cross-browser testing", "Web performance and SEO",
-        ],
+        technologies: ["HTML & CSS", "JavaScript", "React", "Responsive design"],
       },
       {
         name: "Backend and APIs",
-        technologies: [
-          "HTTP and REST APIs", "JSON and Fetch", "Async JavaScript", "PHP", "Node.js basics",
-          "Server-side routing", "MVC fundamentals", "Input validation", "Error handling and logging",
-          "Sessions and authentication", "Authorization basics", "API testing", "Basic web security",
-        ],
+        technologies: ["PHP", "REST APIs", "SQL & MySQL"],
       },
       {
-        name: "Databases and delivery",
-        technologies: [
-          "Relational data modeling", "MySQL", "SQL CRUD and joins", "Constraints and transactions",
-          "Schema migrations", "Git and GitHub", "Browser DevTools", "npm and build tools",
-          "Unit and integration testing", "Environment variables", "CI basics", "Docker basics",
-          "Static and server deployment",
-        ],
+        name: "Testing and delivery",
+        technologies: ["Git & GitHub", "Unit testing", "GitHub Pages"],
       },
     ],
   },
   {
-    name: "Business Analysis",
+    name: "AI/ML Engineering",
     level: "Fresher foundations",
     groups: [
       {
-        name: "Discovery and collaboration",
-        technologies: [
-          "Problem framing", "Scope and objectives", "Stakeholder analysis",
-          "Interviews and workshops", "Requirements elicitation", "Active listening",
-          "Facilitation", "Meeting notes and follow-ups",
-        ],
+        name: "Data and machine learning",
+        technologies: ["Python", "pandas", "scikit-learn", "Data preprocessing"],
       },
       {
-        name: "Requirements and modeling",
-        technologies: [
-          "Functional and non-functional requirements", "Business rules", "User stories",
-          "Acceptance criteria", "Use cases", "Requirements documentation",
-          "As-is and to-be flows", "BPMN and UML basics", "Wireframes", "ER diagrams",
-        ],
+        name: "Training and evaluation",
+        technologies: ["PyTorch", "Imitation learning", "Reinforcement learning", "Model evaluation"],
       },
       {
-        name: "Delivery and validation",
-        technologies: [
-          "Agile and Scrum basics", "Backlog refinement", "MoSCoW prioritization",
-          "Requirements traceability", "Change impact analysis", "UAT scenarios",
-          "Defect reporting", "Basic KPIs and reporting", "Excel and SQL basics",
-          "Jira and Confluence basics",
-        ],
-      },
-    ],
-  },
-  {
-    name: "Languages and Tools",
-    level: "Used in projects",
-    groups: [
-      {
-        name: "Languages and web",
-        technologies: ["JavaScript", "Python", "PHP", "C++", "SQL", "HTML", "CSS"],
-      },
-      {
-        name: "Web, data, and AI",
-        technologies: ["React", "MySQL", "PDO", "LangGraph", "PyTorch", "pandas", "scikit-learn"],
-      },
-      {
-        name: "Graphics and tooling",
-        technologies: ["OpenGL", "CMake", "FFmpeg", "Tkinter", "Matplotlib", "Git", "GitHub Pages"],
+        name: "AI workflows",
+        technologies: ["LangGraph", "Agent workflows"],
       },
     ],
   },

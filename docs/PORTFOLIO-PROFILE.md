@@ -16,7 +16,7 @@ Tổng hợp ngày 25/11/2026 từ 11 repo công khai thuộc tài khoản `duon
 
 Giới thiệu tiếng Anh có thể dùng ngay.
 
-> Full stack development, business analysis, and applied AI.
+> Full stack development and AI/ML engineering.
 
 ## Các dự án có mô tả đóng góp
 
@@ -42,6 +42,6 @@ Hai repo còn lại trong danh mục khảo sát là [INS306401-NS3064-NVH](http
 ## Dùng khi triển khai
 
 - Đưa Pokémon TCG Battle Agent, ITeach và Word-by-Word Video Supercut lên trước. Đưa Software License Tracker, OpenGL Space Station và bốn mục còn lại vào More projects. Trên mỗi card, ghi vai trò hoặc loại hình cộng tác theo chứng cứ có sẵn.
-- Trình bày kỹ năng nền tảng fresher theo hai hướng Full Stack Development và Business Analysis. Dùng nhóm Languages and Tools cho công nghệ đã áp dụng và mục AI interests cho các chủ đề quan tâm. [Năng lực BA đầu vào](https://www.iiba.org/business-analysis-certifications/ecba/ecba-competencies/)
+- Trình bày kỹ năng trọng tâm ở mức fresher theo hai hướng Full Stack Development và AI/ML Engineering. Giữ stack cụ thể trên từng dự án và dùng mục AI interests cho các chủ đề quan tâm.
 - Dùng `Solo project` khi chủ repo xác nhận. Với ITeach và Video Supercut, có thể dùng `Personal project` dựa trên lịch sử công khai. Dùng `Team project` cho Software License Tracker và Team-9. Với mục chỉ có bằng chứng upload, có thể dùng `Repository publisher` nếu cần nêu đóng góp.
 - Các mục cần xác nhận thêm gồm hình thức làm TCG, OpenGL và Temperature Demo, phần việc trong Team-9, cách viết tên đầy đủ, tình trạng học tập hiện tại, liên hệ, CV và các dự án ngoài GitHub.

@@ -40,9 +40,10 @@ test("renders the portfolio and source links on the initial render", () => {
   expect(within(openGl).getByText("C++ / OpenGL Contributor · Team project")).toBeVisible();
   expect(screen.getByRole("heading", { name: "Full Stack Development" })).toBeVisible();
   expect(screen.getByRole("heading", { name: "Backend and APIs" })).toBeVisible();
-  expect(screen.getByRole("heading", { name: "Databases and delivery" })).toBeVisible();
-  expect(screen.getByRole("heading", { name: "Business Analysis" })).toBeVisible();
-  expect(screen.getByRole("heading", { name: "Languages and Tools" })).toBeVisible();
+  expect(screen.getByRole("heading", { name: "Testing and delivery" })).toBeVisible();
+  expect(screen.getByRole("heading", { name: "AI/ML Engineering" })).toBeVisible();
+  expect(screen.getByText("AI/ML Engineer", { exact: true })).toBeVisible();
+  expect(screen.queryByRole("heading", { name: "Business Analysis" })).toBeNull();
   expect(screen.getByText("Retrieval-augmented generation and embeddings")).toBeVisible();
   expect(screen.getByRole("link", { name: "GitHub · @duongvuwu" }))
     .toHaveAttribute("href", "https://github.com/duongvuwu");
