@@ -38,12 +38,16 @@ test("renders the portfolio and source links on the initial render", () => {
   expect(within(archive).getByRole("heading", { name: "Software License Tracker" })).toBeVisible();
   const openGl = within(archive).getByRole("heading", { name: "OpenGL Space Station" }).closest("article");
   expect(within(openGl).getByText("C++ / OpenGL Contributor · Team project")).toBeVisible();
-  expect(screen.getByRole("heading", { name: "Frontend Development" })).toBeVisible();
+  expect(screen.getByRole("heading", { name: "Full Stack Development" })).toBeVisible();
+  expect(screen.getByRole("heading", { name: "Backend and APIs" })).toBeVisible();
+  expect(screen.getByRole("heading", { name: "Databases and delivery" })).toBeVisible();
   expect(screen.getByRole("heading", { name: "Business Analysis" })).toBeVisible();
   expect(screen.getByRole("heading", { name: "Languages and Tools" })).toBeVisible();
   expect(screen.getByText("Retrieval-augmented generation and embeddings")).toBeVisible();
   expect(screen.getByRole("link", { name: "GitHub · @duongvuwu" }))
     .toHaveAttribute("href", "https://github.com/duongvuwu");
+  expect(screen.getByRole("link", { name: "LinkedIn" }))
+    .toHaveAttribute("href", "https://www.linkedin.com/in/duongvuwu");
 });
 
 test("opens and closes the compact navigation and focuses fragment destinations", async () => {

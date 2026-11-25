@@ -1,8 +1,9 @@
 export const profile = {
   name: "Duong Vu",
   handle: "duongvuwu",
-  introduction: "Frontend development, business analysis, and applied AI.",
-  about: "I’m building my skills in frontend development and business analysis. My projects include a learning-by-teaching backend, a game agent trained on match replays, and a video editing pipeline driven by word timestamps.",
+  introduction: "Full Stack Development",
+  focus: "Business Analysis · Applied AI",
+  about: "I’m building my skills in full stack development and business analysis. My projects include a learning-by-teaching backend, a game agent trained on match replays, and a video editing pipeline driven by word timestamps.",
   interests: [
     "Generative AI and large language models",
     "AI agents and workflow orchestration",
@@ -14,36 +15,39 @@ export const profile = {
     "Model serving, inference, and MLOps",
     "AI-assisted learning and automation",
   ],
-  contact: "Find me on GitHub.",
   githubUrl: "https://github.com/duongvuwu",
+  linkedinUrl: "https://www.linkedin.com/in/duongvuwu",
 };
 
 export const skillTracks = [
   {
-    name: "Frontend Development",
+    name: "Full Stack Development",
     level: "Fresher foundations",
     groups: [
       {
-        name: "Web fundamentals",
+        name: "Frontend development",
         technologies: [
           "Semantic HTML", "CSS", "Flexbox", "Grid", "Responsive design", "Accessibility",
           "JavaScript (ES6+)", "TypeScript basics", "DOM and events", "Forms and validation",
+          "React components", "Props, state, and hooks", "Client-side routing",
+          "Client-side storage", "Figma handoff", "Cross-browser testing", "Web performance and SEO",
         ],
       },
       {
-        name: "Build and integrate",
+        name: "Backend and APIs",
         technologies: [
-          "React components", "Props, state, and hooks", "Client-side routing", "HTTP and REST APIs",
-          "Fetch and JSON", "Async JavaScript", "Loading and error states",
-          "Browser storage", "Basic web security",
+          "HTTP and REST APIs", "JSON and Fetch", "Async JavaScript", "PHP", "Node.js basics",
+          "Server-side routing", "MVC fundamentals", "Input validation", "Error handling and logging",
+          "Sessions and authentication", "Authorization basics", "API testing", "Basic web security",
         ],
       },
       {
-        name: "Design, test, and ship",
+        name: "Databases and delivery",
         technologies: [
-          "Figma handoff", "Reusable UI components", "Browser DevTools",
-          "Cross-browser testing", "Unit and component testing", "Git and GitHub",
-          "npm and build tools", "Performance basics", "SEO basics", "Static deployment",
+          "Relational data modeling", "MySQL", "SQL CRUD and joins", "Constraints and transactions",
+          "Schema migrations", "Git and GitHub", "Browser DevTools", "npm and build tools",
+          "Unit and integration testing", "Environment variables", "CI basics", "Docker basics",
+          "Static and server deployment",
         ],
       },
     ],

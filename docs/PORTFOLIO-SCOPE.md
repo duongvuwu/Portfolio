@@ -13,13 +13,13 @@ Dựng portfolio một trang cho **Duong Vu** (`duongvuwu`). Người xem có th
 | Phần | Nội dung và hành vi |
 | --- | --- |
 | Header | Wordmark `Duong Vu` về đầu trang. Menu dẫn đến `#about`, `#skills`, `#projects`, `#contact`. Khi thiếu chỗ, dùng menu gọn với nút có nhãn và trạng thái mở/đóng. |
-| Hero | Một H1 đậm và rộng, hai CTA tới Projects và Contact, nền lưới mờ và chấm trang trí. |
+| Hero | Một H1 đậm và rộng, hai CTA tới Projects và Contact, nền lưới có chuyển động nhẹ, hiệu ứng gõ chữ cho định hướng Full Stack. |
 | About | Giới thiệu ngắn và một khối terminal trình bày handle cùng các mảng AI quan tâm. Hai cột khi đủ rộng, một cột trên mobile. |
-| Skills | Nhóm Frontend Development và Business Analysis ở mức nền tảng fresher. Liệt kê riêng ngôn ngữ và công cụ đã dùng trong dự án. |
+| Skills | Nhóm Full Stack Development và Business Analysis ở mức nền tảng fresher. Full Stack gồm frontend, backend và API, cơ sở dữ liệu và triển khai. Liệt kê riêng công nghệ đã dùng trong dự án. |
 | Projects | Ba dự án nổi bật và danh sách More projects gồm Software License Tracker, OpenGL Space Station và các mục còn lại. Mỗi dự án có mô tả, công nghệ, mã nguồn và vai trò khi có dữ kiện. Hiện Demo khi có đích hoạt động và được phép chia sẻ. |
-| Contact và footer | Mặc định hiển thị GitHub của chủ repo. Chỉ thêm email, LinkedIn và link CV khi được cung cấp hoặc xác nhận. Footer ngắn và có liên kết về đầu trang. |
+| Contact và footer | Hiển thị GitHub và LinkedIn do chủ repo cung cấp. Chỉ thêm email và link CV khi được cung cấp hoặc xác nhận. Footer ngắn và có liên kết về đầu trang. |
 
-Dùng tông đen trắng, đường viền xám và typography đậm. Hero canh giữa, dùng Unbounded cho tên hiển thị và monospace cho dòng định hướng. Giữ hình học và bố cục riêng. Toàn bộ nội dung chính phải đọc được khi hiệu ứng bị tắt.
+Dùng tông đen trắng, đường viền xám và typography đậm. Hero canh giữa, dùng Unbounded cho tên hiển thị và monospace cho dòng định hướng. Giữ hình học và bố cục riêng. Các khối nội dung có thể xuất hiện nhẹ khi cuộn. Toàn bộ nội dung chính phải đọc được khi hiệu ứng bị tắt.
 
 ## Dữ liệu khởi đầu
 

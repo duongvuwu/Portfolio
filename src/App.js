@@ -193,7 +193,12 @@ function App() {
         <section className="hero">
           <div className="shell">
             <h1 id="main-content" tabIndex={-1}>{profile.name}</h1>
-            <p>{profile.introduction}</p>
+            <p className="hero-intro">
+              <span className="hero-role" style={{ "--role-length": profile.introduction.length }}>
+                <span className="hero-role-text">{profile.introduction}</span>
+              </span>
+              <span className="hero-focus">{profile.focus}</span>
+            </p>
             <div className="hero-actions">
               <a className="button button-primary" href="#projects">View projects</a>
               <a className="button" href="#contact">Contact</a>
@@ -288,10 +293,14 @@ function App() {
         <section className="section contact">
           <div className="shell">
             <h2 id="contact" tabIndex={-1}>Contact</h2>
-            <p>{profile.contact}</p>
-            <a className="button" href={profile.githubUrl}>
-              GitHub · @{profile.handle} <FiArrowUpRight aria-hidden="true" />
-            </a>
+            <div className="contact-links">
+              <a className="button" href={profile.githubUrl}>
+                GitHub · @{profile.handle} <FiArrowUpRight aria-hidden="true" />
+              </a>
+              <a className="button" href={profile.linkedinUrl}>
+                LinkedIn <FiArrowUpRight aria-hidden="true" />
+              </a>
+            </div>
           </div>
         </section>
       </main>

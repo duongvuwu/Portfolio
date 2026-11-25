@@ -12,11 +12,11 @@ Tổng hợp ngày 25/11/2026 từ 11 repo công khai thuộc tài khoản `duon
 | Web và dữ liệu | PHP, MySQL, PDO, HTML, CSS và JavaScript qua Software License Tracker và bài tập web. [License Tracker](https://github.com/duongvuwu/Group-12-_-NVH_INS306401#readme) · [Bài tập](https://github.com/duongvuwu/INS306401-INS3064-Vu-Binh-Duong) |
 | AI và xử lý dữ liệu | Python, LangGraph, PyTorch, imitation learning, PPO, pandas và scikit-learn qua các dự án bên dưới. [ITeach](https://github.com/duongvuwu/ITeach) · [TCG Battle Agent](https://github.com/duongvuwu/TCG-TRAIN) · [Team-9](https://github.com/duongvuwu/Team-9) |
 | Đồ họa và video | C++, OpenGL, CMake và FFmpeg qua mô phỏng trạm không gian và pipeline dựng video. [OpenGL Space Station](https://github.com/duongvuwu/OpenGL-SpaceStation) · [Video Supercut](https://github.com/duongvuwu/word-by-word-video-supercut-demo) |
-| Liên hệ | GitHub là kênh công khai cho v1. Email công việc, LinkedIn và CV cần xác nhận trước khi hiển thị. [GitHub](https://github.com/duongvuwu) |
+| Liên hệ | GitHub và LinkedIn là kênh công khai. Email công việc và CV cần xác nhận trước khi hiển thị. [GitHub](https://github.com/duongvuwu) · [LinkedIn](https://www.linkedin.com/in/duongvuwu) |
 
 Giới thiệu tiếng Anh có thể dùng ngay.
 
-> Frontend development, business analysis, and applied AI.
+> Full stack development, business analysis, and applied AI.
 
 ## Các dự án có mô tả đóng góp
 
@@ -42,6 +42,6 @@ Hai repo còn lại trong danh mục khảo sát là [INS306401-NS3064-NVH](http
 ## Dùng khi triển khai
 
 - Đưa Pokémon TCG Battle Agent, ITeach và Word-by-Word Video Supercut lên trước. Đưa Software License Tracker, OpenGL Space Station và bốn mục còn lại vào More projects. Trên mỗi card, ghi vai trò hoặc loại hình cộng tác theo chứng cứ có sẵn.
-- Trình bày kỹ năng nền tảng fresher theo hai hướng Frontend Development và Business Analysis. Dùng nhóm Languages and Tools cho công nghệ đã áp dụng và mục AI interests cho các chủ đề quan tâm. [Năng lực BA đầu vào](https://www.iiba.org/business-analysis-certifications/ecba/ecba-competencies/)
+- Trình bày kỹ năng nền tảng fresher theo hai hướng Full Stack Development và Business Analysis. Dùng nhóm Languages and Tools cho công nghệ đã áp dụng và mục AI interests cho các chủ đề quan tâm. [Năng lực BA đầu vào](https://www.iiba.org/business-analysis-certifications/ecba/ecba-competencies/)
 - Dùng `Solo project` khi chủ repo xác nhận. Với ITeach và Video Supercut, có thể dùng `Personal project` dựa trên lịch sử công khai. Dùng `Team project` cho Software License Tracker và Team-9. Với mục chỉ có bằng chứng upload, có thể dùng `Repository publisher` nếu cần nêu đóng góp.
 - Các mục cần xác nhận thêm gồm hình thức làm TCG, OpenGL và Temperature Demo, phần việc trong Team-9, cách viết tên đầy đủ, tình trạng học tập hiện tại, liên hệ, CV và các dự án ngoài GitHub.

@@ -1,6 +1,6 @@
 # Duong Vu Portfolio
 
-A one-page portfolio covering frontend development, business analysis, and applied AI. The English copy, skill tracks, and project links live in [src/portfolio.js](src/portfolio.js).
+A one-page portfolio covering full stack development, business analysis, and applied AI. The English copy, skill tracks, and project links live in [src/portfolio.js](src/portfolio.js).
 
 ## Local development
 

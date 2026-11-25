@@ -323,15 +323,32 @@ button {
   text-wrap: balance;
 }
 
-.hero p {
+.hero-intro {
   max-inline-size: 50ch;
   margin: 1.5rem auto 0;
   color: var(--muted);
   font: clamp(0.9375rem, 0.8rem + 0.35vw, 1.1875rem)/1.6 var(--mono);
 }
 
+.hero-role {
+  position: relative;
+  display: inline-block;
+  color: var(--text);
+}
+
+.hero-role-text,
+.hero-focus {
+  display: block;
+}
+
+.hero-focus {
+  margin-block-start: 0.35rem;
+  font-size: 0.875em;
+}
+
 .hero-actions,
-.project-links {
+.project-links,
+.contact-links {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -364,8 +381,7 @@ button {
   gap: 1.5rem;
 }
 
-.about-copy p,
-.contact p {
+.about-copy p {
   margin-block-start: 1rem;
 }
 
@@ -547,7 +563,7 @@ button {
   margin-block-start: 0.5rem;
 }
 
-.contact .button {
+.contact-links {
   margin-block-start: 1.5rem;
 }
 
@@ -591,6 +607,104 @@ button {
   a,
   button {
     transition: color 120ms ease, border-color 120ms ease, background-color 120ms ease;
+  }
+
+  .hero::before {
+    animation: grid-settle 3.2s cubic-bezier(0.2, 0.7, 0.3, 1);
+  }
+
+  .hero h1:not(:focus) {
+    animation: content-arrive 700ms cubic-bezier(0.2, 0.7, 0.3, 1);
+  }
+
+  .hero-focus {
+    animation: content-arrive 540ms ease-out 540ms backwards;
+  }
+
+  .hero-actions:not(:focus-within) {
+    animation: controls-arrive 550ms ease-out 480ms backwards;
+  }
+
+  @supports ((animation-timeline: view()) and (animation-range: entry)) {
+    :is(.about-copy, .terminal, .skill-track, .project-card, .archive-project, .contact .shell):not(:focus-within) {
+      /* The production optimizer can move the shorthand after the timeline and reset it. */
+      animation-name: section-arrive;
+      animation-duration: auto;
+      animation-timing-function: ease-out;
+      animation-fill-mode: both;
+      animation-timeline: view();
+      animation-range: entry 1% entry 66%;
+    }
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) and (min-width: 20rem) {
+  .hero-role {
+    --typing: 1.08s steps(var(--role-length), end) 180ms;
+  }
+
+  .hero-role-text {
+    animation: type-role var(--typing) backwards;
+  }
+
+  .hero-role::after {
+    position: absolute;
+    inset-block-start: 0.4em;
+    inset-inline-start: 0;
+    inline-size: 0.48ch;
+    block-size: 0.82em;
+    background: currentColor;
+    opacity: 0;
+    animation: type-cursor var(--typing) backwards;
+    pointer-events: none;
+    content: "";
+  }
+}
+
+@keyframes content-arrive {
+  from {
+    opacity: 0.45;
+    transform: translateY(0.75rem);
+  }
+}
+
+@keyframes grid-settle {
+  from {
+    opacity: 0.12;
+    transform: scale(0.95);
+  }
+}
+
+@keyframes controls-arrive {
+  from {
+    opacity: 0.5;
+  }
+}
+
+@keyframes section-arrive {
+  from {
+    opacity: 0.82;
+    transform: translateY(0.75rem);
+  }
+}
+
+@keyframes type-role {
+  from {
+    clip-path: inset(0 100% 0 0);
+  }
+  to {
+    clip-path: inset(0);
+  }
+}
+
+@keyframes type-cursor {
+  from {
+    opacity: 0.7;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0.7;
+    transform: translateX(calc(var(--role-length) * 1ch));
   }
 }
 
