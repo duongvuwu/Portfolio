@@ -1,6 +1,6 @@
 # Hướng dẫn cho agent
 
-Repo đích là `duongvuwu/Portfolio`. Đọc [scope v1](docs/PORTFOLIO-SCOPE.md) trước khi sửa app. [Prompt triển khai](docs/ORCHESTRATOR-PROMPT.md) là đầu vào cho orchestrator ở giai đoạn tiếp theo.
+Repo đích là `duongvuwu/Portfolio`. Đọc [scope v1](docs/PORTFOLIO-SCOPE.md) và [hồ sơ dự án](docs/PORTFOLIO-PROFILE.md) trước khi sửa app. [Prompt triển khai](docs/ORCHESTRATOR-PROMPT.md) là đầu vào cho orchestrator ở giai đoạn tiếp theo.
 
 ## Vai trò
 
@@ -18,6 +18,7 @@ Content và Design có thể làm song song. Frontend tiếp nhận cả hai đ�
 
 - Kiểm tra `git status`, `git remote -v` và nhánh hiện tại trước khi làm. Giữ các thay đổi của chủ repo và commit đúng phạm vi của nhiệm vụ.
 - Dùng tài khoản và dự án có nguồn công khai đã kiểm tra. Chỉ ghi đóng góp cá nhân, chức danh, thành tích, email, LinkedIn hoặc CV khi có bằng chứng phù hợp hoặc chủ repo cung cấp. Ẩn trường tuỳ chọn còn thiếu.
+- Dùng tài liệu phân công và lịch sử commit để ghi vai trò. Chỉ dùng nhãn `Solo project` khi chủ repo xác nhận. Với dự án có một người đứng tên commit công khai, có thể dùng nhãn `Personal project` nếu phù hợp với bằng chứng.
 - Dùng bố cục tham khảo để định hướng. Tự viết nội dung và tạo thiết kế riêng. Ghi credit trong README nếu tái sử dụng mã hoặc tài sản của template hiện tại.
 - Ưu tiên stack hiện có, HTML ngữ nghĩa và CSS. Chỉ thay công cụ build khi trở ngại được xác minh và cần xử lý để hoàn thành scope.
 - Render nội dung chính ngay khi trang tải. Các liên kết và thao tác điều hướng phải dùng được bằng bàn phím và cảm ứng. Tôn trọng `prefers-reduced-motion`.
